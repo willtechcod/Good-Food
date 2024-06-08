@@ -66,4 +66,9 @@ a{
   .subtitulo{
     max-width: 95%;
   }
+  .logotipo{
+    max-width: 300px;
+    width: 120%;
+    padding: 26px 10px 10px 20px;
+  }
 }

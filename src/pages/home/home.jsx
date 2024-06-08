@@ -1,4 +1,5 @@
 import Navbar from "../../components/navbar/navbar";
+import ProdutoVitrine from "../../components/produto-vitrine/produto-vitrine";
 
 const Home = () => {
   return ( 
@@ -6,16 +7,19 @@ const Home = () => {
       <Navbar/>
 
       <div className="container">
-        <div className="titulo">
+        <div className="titulo text-center">
             <h1>Nosso Cardápio</h1>
-              <p>
+              <p className="subtitulo">
                   Clique em adicionar para colocar os produtos na sacola  de compras.
                   Se preferir, você pode pedir pelo whatsApp: (47) 99999-9999<br/>
             </p>
         </div>
       </div>
       
-                  lista dos produtos...
+        <ProdutoVitrine/>
+        <ProdutoVitrine/>
+        <ProdutoVitrine/>
+        <ProdutoVitrine/>
     </>
    );
 }
