@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import ProdutoVitrine from "../../components/produto-vitrine/produto-vitrine";
 
@@ -8,18 +9,17 @@ const Home = () => {
 
       <div className="container">
         <div className="titulo text-center">
-            <h1>Nosso Cardápio</h1>
+            <h1>Nosso <span className="span-title">Cardápio</span></h1>
               <p className="subtitulo">
                   Clique em adicionar para colocar os produtos na sacola  de compras.
-                  Se preferir, você pode pedir pelo whatsApp: (47) 99999-9999<br/>
+                  Se preferir, você pode pedir pelo whatsApp: (47) 99164-7104<br/>
             </p>
         </div>
       </div>
-      
-        <ProdutoVitrine/>
-        <ProdutoVitrine/>
-        <ProdutoVitrine/>
-        <ProdutoVitrine/>
+          <div className="text-center">
+            <ProdutoVitrine/>
+          </div>
+          <Footer/>
     </>
    );
 }
