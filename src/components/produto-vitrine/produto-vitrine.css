@@ -1,8 +1,40 @@
 .produto-box{
-  border: 3px solid #e9e9e9;
+  border: 2px solid #e9e9e9;
   border-radius: 18px;
-  max-width: 230px;
+  max-width: 280px;
+  max-height: 480px;
   padding: 10px 10px 20px 10px;
   display: inline-block;
   margin: 30px;
+}
+
+.card-box{
+  max-width: 380px;
+  width: 280px;
+  max-height: 440px;
+  height: 420px;
+  border-radius: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1rem;
+}
+.card{
+  width: 100%;
+  height: 180px;
+  border-radius: 18px;
+}
+
+.title{
+  color: #ff9500
+}
+
+.prod-description{
+  color: #acacac;
+  font-size: 1rem;
+}
+
+.prod-price{
+  color: #e84f3d;
+  font-weight: bold;
+  line-height: 1rem;
 }
